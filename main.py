@@ -90,7 +90,7 @@ if __name__ == "__main__":
     process.crawl(QuotesSpider)
     process.start()
 
-    with open("qoutes.json", "w", encoding="utf-8") as file:
+    with open("quotes.json", "w", encoding="utf-8") as file:
         json.dump(
             quotes,
             file,
